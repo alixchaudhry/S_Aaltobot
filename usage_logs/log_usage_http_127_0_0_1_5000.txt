@@ -204,3 +204,4 @@ https://www.aalto.fi/en/study-at-aalto/applying-to-masters-programmes, 223
 I hope this helps! Let me know if you have any other questions., 263
 2023-04-16 01:11:11, http://127.0.0.1:5000, get_response, Where can I know more about Aalto?, You can find more information about Aalto University on our website at https://www.aalto.fi/en. We also have social media accounts on Facebook, Twitter, Instagram, LinkedIn, and YouTube. You can find the links to our social media accounts in the context above., 74
 2023-04-16 01:11:33, http://127.0.0.1:5000, get_response, facebook?, Yes, Aalto University has a Facebook page. You can find it at http://www.facebook.com/aaltouniversity., 109
+2023-04-16 02:02:58, http://127.0.0.1:5000, get_response, jo, Hello! How can I assist you with regards to JOO studies at Aalto University?, 30
