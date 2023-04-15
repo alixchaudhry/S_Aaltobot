@@ -12,12 +12,7 @@ import datetime
 from datetime import timedelta
 from flask_cors import CORS
 
-# Enter your API keys and variables
-OPENAI_API_KEY = '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'
-PINECONE_API_KEY = 'ea15c3a0-5dca-45ab-b026-2daa3ee0e8b8'
-PINECONE_ENV = 'us-west1-gcp'
-PINECONE_INDEX = 'aaltobot-search'
-FLASK_KEY = '24854b682ced3b046a999fdff90a8034'
+
 #OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 #PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY")
 #PINECONE_ENV = os.environ.get("PINECONE_ENV")
