@@ -239,7 +239,6 @@
             right: 20px;
             border-radius: 50%;
             z-index: 1001;
-            /* Additional styles for the button appearance */
             background-image: linear-gradient(to bottom right, #FF69B4, #00BCFF);
             border-width: 0px;
             color: white;
@@ -253,7 +252,6 @@
         #chat-floating-icon:hover {
             background-color: #007bff;
             background-image: none;
-            /* Replace this with your desired solid background color */
             transform: scale(1.1);
             animation: none;
         }
@@ -292,7 +290,6 @@
 
         #chat-widget-collapse-button {
             border-radius: 50%;
-            /* Additional styles for the button appearance */
             background-color: transparent;
             color: white;
         }
@@ -374,8 +371,8 @@
     <script>
         // add a new variable to hold the chat transcript
         let chatTranscript = [];
-        // const backendURL = "https://saadtestbotflask2.azurewebsites.net";
-        const backendURL = "http://127.0.0.1:5000";
+        // const backendURL = "https://<update it with deployed flask app>.azurewebsites.net";
+        const backendURL = "http://127.0.0.1:5000"; // setup for local testing
         // instantiate the Showdown converter
         const converter = new showdown.Converter();
         // const clientURL
