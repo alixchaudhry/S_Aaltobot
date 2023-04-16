@@ -13,11 +13,11 @@ from datetime import timedelta
 from flask_cors import CORS
 
 
-#OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
-#PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY")
-#PINECONE_ENV = os.environ.get("PINECONE_ENV")
-#PINECONE_INDEX = os.environ.get("PINECONE_INDEX")
-#FLASK_KEY = os.environ.get("FLASK_KEY")
+OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
+PINECONE_API_KEY = os.environ.get("PINECONE_API_KEY")
+PINECONE_ENV = os.environ.get("PINECONE_ENV")
+PINECONE_INDEX = os.environ.get("PINECONE_INDEX")
+FLASK_KEY = os.environ.get("FLASK_KEY")
 
 # Initialize Flask app
 app = Flask(__name__)
