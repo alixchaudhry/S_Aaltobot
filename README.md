@@ -1,3 +1,3 @@
-# S_Aaltobot
+# Aaltobot
 
 Aalto Final Year Project
